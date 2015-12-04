@@ -2,7 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/redux-localstorage-immutable.svg)](https://badge.fury.io/js/redux-localstorage-immutable)
 
-Enhancer for redux-localstorage that allows you to persist an immutable store. 
+
+Enhancer for redux-localstorage that allows you to persist an immutable store.
 
 ## Installation
 
