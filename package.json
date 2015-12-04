@@ -1,6 +1,6 @@
 {
   "name": "redux-localstorage-immutable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Enhancer for redux-localstorage that allows you to persist an immutable store",
   "main": "lib/index.js",
   "scripts": {
