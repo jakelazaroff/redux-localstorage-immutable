@@ -36,4 +36,4 @@ Adds a `put` that converts the state to a JavaScript object and passes the stora
 
 ## Thanks
 
-Cheers to [redux-localstorage](elgerlambert/redux-localstorage) and [redux-immutablejs](https://github.com/indexiatech/redux-immutablejs)!
+Cheers to [redux-localstorage](https://github.com/elgerlambert/redux-localstorage) and [redux-immutablejs](https://github.com/indexiatech/redux-immutablejs)!
