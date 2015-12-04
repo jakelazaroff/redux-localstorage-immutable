@@ -1,0 +1,34 @@
+{
+  "name": "redux-localstorage-immutable",
+  "version": "1.0.0",
+  "description": "Enhancer for redux-localstorage that allows you to persist an immutable store",
+  "main": "src/index.js",
+  "scripts": {
+    "prepublish": "make clean build"
+  },
+  "files": [
+    "lib/",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakelazaroff/redux-localstorage-immutable.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-localstorage",
+    "store enhancer",
+    "immutable"
+  ],
+  "author": "Jake Lazaroff <yo@jake.nyc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakelazaroff/redux-localstorage-immutable/issues"
+  },
+  "homepage": "https://github.com/jakelazaroff/redux-localstorage-immutable#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23"
+  }
+}
