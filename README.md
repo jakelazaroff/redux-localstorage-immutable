@@ -26,6 +26,8 @@ const storage = compose(
 
 ## Methods
 
+**Note:** I've documented the parameters here to explain what each method does, but in practice you can just pass them to the appropriate methods without worrying about it.
+
 ### deserialize (state, payload)
 
 Merges `payload` into `state` and returns the resulting Immutable. Used to take the JSON string from local storage and merge it into the store.
