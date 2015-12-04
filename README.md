@@ -1,5 +1,7 @@
 # redux-localstorage-immutable
 
+[![npm version](https://badge.fury.io/js/redux-localstorage-immutable.svg)](https://badge.fury.io/js/redux-localstorage-immutable)
+
 Enhancer for redux-localstorage that allows you to persist an immutable store. 
 
 ## Installation
@@ -18,8 +20,7 @@ const reducers = compose(
 )(reducers);
 
 const storage = compose(
-  serialize,
-  // other enhancers
+  serialize
 )(adapter(window.localStorage));
 ```
 
