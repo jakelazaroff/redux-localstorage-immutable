@@ -4,7 +4,8 @@
   "description": "Enhancer for redux-localstorage that allows you to persist an immutable store",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "make clean build"
+    "prepublish": "make test clean build",
+    "test": "make test"
   },
   "files": [
     "lib/",
@@ -29,6 +30,11 @@
   "homepage": "https://github.com/jakelazaroff/redux-localstorage-immutable#readme",
   "devDependencies": {
     "babel": "^5.8.23",
-    "babel-core": "^5.8.23"
+    "babel-core": "^5.8.23",
+    "chai": "^3.4.1",
+    "immutable": "^3.7.5",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
   }
 }
