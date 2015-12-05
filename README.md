@@ -1,6 +1,6 @@
 # redux-localstorage-immutable
 
-[![npm version](https://badge.fury.io/js/redux-localstorage-immutable.svg)](https://badge.fury.io/js/redux-localstorage-immutable)
+[![npm](https://img.shields.io/npm/v/redux-localstorage-immutable.svg?style=flat-square)]([![npm](https://img.shields.io/npm/dm/redux-localstorage-immutable.svg?style=flat-square)](https://www.npmjs.com/package/redux-localstorage-immutable)) [![npm](https://img.shields.io/npm/dm/redux-localstorage-immutable.svg?style=flat-square)](https://www.npmjs.com/package/redux-localstorage-immutable)
 
 
 Enhancer for redux-localstorage that allows you to persist an immutable store.
