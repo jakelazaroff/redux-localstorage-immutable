@@ -35,7 +35,7 @@ Merges `payload` into `state` and returns the resulting Immutable. Used to take 
 
 ### serialize (storage)
 
-Adds a `put` that converts the state to a JavaScript object and passes the storage object along. Used to prepare your Immutable for local storage. Probably should go before any other enhancers, unless they're expecting an Immutable rather than a plan JavaScript object.
+Adds a `put` that converts the state to a JavaScript object and passes the storage object along. Used to prepare your Immutable for local storage. Probably should go before any other enhancers, unless they don't care about the state (like [redux-localstorage-debounce](https://github.com/elgerlambert/redux-localstorage-debounce)) or they're expecting an Immutable rather than a plain JavaScript object.
 
 ## Thanks
 
