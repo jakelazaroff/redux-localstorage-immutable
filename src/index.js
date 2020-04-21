@@ -1,4 +1,6 @@
-export const deserialize = (state, payload) => state.merge(payload);
+import { fromJS } from 'immutable';
+
+export const deserialize = (state, payload) => state.merge(fromJS(payload));
 
 export const serialize = (storage) => ({
   ...storage,
